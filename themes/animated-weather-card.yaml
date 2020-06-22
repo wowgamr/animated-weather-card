@@ -1,0 +1,19 @@
+# Animated icons for default Home Assistant weather card
+# Creator: Anton Averkiev - @wowgamr
+# Website: https://wowgamr.ru
+
+Animated Weather Card:
+    weather-icon-clear-night: url("/local/community/weather-icons/clear-night.svg")
+    weather-icon-cloudy: url("/local/community/weather-icons/cloudy.svg")
+    weather-icon-fog: url("/local/community/weather-icons/cloudy.svg")
+    weather-icon-lightning: url("/local/community/weather-icons/lightning.svg")
+    weather-icon-lightning-rainy: url("/local/community/weather-icons/lightning.svg")
+    weather-icon-partlycloudy: url("/local/community/weather-icons/partlycloudy.svg")
+    weather-icon-pouring: url("/local/community/weather-icons/pouring.svg")
+    weather-icon-rainy: url("/local/community/weather-icons/rainy.svg")
+    weather-icon-hail: url("/local/community/weather-icons/hail.svg")
+    weather-icon-snowy: url("/local/community/weather-icons/snowy.svg")
+    weather-icon-snowy-rainy: url("/local/community/weather-icons/hail.svg")
+    weather-icon-sunny: url("/local/community/weather-icons/sunny.svg")
+    weather-icon-windy: url("/local/community/weather-icons/cloudy.svg")
+    weather-icon-windy-variant: url("/local/community/weather-icons/partlycloudy.svg")
