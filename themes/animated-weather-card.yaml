@@ -1,6 +1,8 @@
 # Animated icons for default Home Assistant weather card
+#
 # Creator: Anton Averkiev - @wowgamr
 # Website: https://wowgamr.ru
+# Repo: https://github.com/wowgamr/animated-weather-card
 
 Animated Weather Card:
     weather-icon-clear-night: url("/hacsfiles/themes/animated-weather-card/icons/clear-night.svg")
@@ -14,6 +16,6 @@ Animated Weather Card:
     weather-icon-hail: url("/hacsfiles/themes/animated-weather-card/icons/hail.svg")
     weather-icon-snowy: url("/hacsfiles/themes/animated-weather-card/icons/snowy.svg")
     weather-icon-snowy-rainy: url("/hacsfiles/themes/animated-weather-card/icons/hail.svg")
-    weather-icon-sunny: url("/hacsfiles/hacsfiles/themes/animated-weather-card/icons/sunny.svg")
+    weather-icon-sunny: url("/hacsfiles/themes/animated-weather-card/icons/sunny.svg")
     weather-icon-windy: url("/hacsfiles/themes/animated-weather-card/icons/cloudy.svg")
     weather-icon-windy-variant: url("/hacsfiles/themes/animated-weather-card/icons/partlycloudy.svg")
