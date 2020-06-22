@@ -3,7 +3,7 @@
 # Website: https://wowgamr.ru
 
 Animated Weather Card:
-    weather-icon-clear-night: url("/themes/animated-weather-card/icons/clear-night.svg")
+    weather-icon-clear-night: url("/local/icons/clear-night.svg")
     weather-icon-cloudy: url("/themes/animated-weather-card/icons/cloudy.svg")
     weather-icon-fog: url("/themes/animated-weather-card/icons/cloudy.svg")
     weather-icon-lightning: url("/themes/animated-weather-card/icons/lightning.svg")
@@ -14,6 +14,6 @@ Animated Weather Card:
     weather-icon-hail: url("/themes/animated-weather-card/icons/hail.svg")
     weather-icon-snowy: url("/themes/animated-weather-card/icons/snowy.svg")
     weather-icon-snowy-rainy: url("/themes/animated-weather-card/icons/hail.svg")
-    weather-icon-sunny: url("/themes/animated-weather-card/icons/sunny.svg")
+    weather-icon-sunny: url("/hacsfiles/themes/animated-weather-card/icons/sunny.svg")
     weather-icon-windy: url("/themes/animated-weather-card/icons/cloudy.svg")
     weather-icon-windy-variant: url("/themes/animated-weather-card/icons/partlycloudy.svg")
