@@ -1,5 +1,5 @@
 {
   "name": "Animated Weather Card",
   "render_readme": true,
-  "homeassistant": "0.119.0"
+  "homeassistant": "0.109.0"
 }
