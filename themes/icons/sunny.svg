@@ -19,6 +19,12 @@
 		-ms-transform: rotate(0deg);
 		transform: rotate(0deg);
 	}
+	50% {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
 	100% {
 		-webkit-transform: rotate(360deg);
 		-moz-transform: rotate(360deg);
@@ -31,10 +37,10 @@
 	-moz-animation-name: am-weather-sun;
 	-ms-animation-name: am-weather-sun;
 	animation-name: am-weather-sun;
-	-webkit-animation-duration: 9s;
-	-moz-animation-duration: 9s;
-	-ms-animation-duration: 9s;
-	animation-duration: 9s;
+	-webkit-animation-duration: 20s;
+	-moz-animation-duration: 20s;
+	-ms-animation-duration: 20s;
+	animation-duration: 20s;
 	-webkit-animation-timing-function: linear;
 	-moz-animation-timing-function: linear;
 	-ms-animation-timing-function: linear;
@@ -49,11 +55,43 @@
 		stroke-dasharray: 3px 10px;
 		stroke-dashoffset: 0px;
 	}
-	50% {
+	5% {
 		stroke-dasharray: 0.1px 10px;
 		stroke-dashoffset: -1px;
 	}
-	100% {
+	10% {
+		stroke-dasharray: 3px 10px;
+		stroke-dashoffset: 0px;
+	}
+	15% {
+		stroke-dasharray: 0.1px 10px;
+		stroke-dashoffset: -1px;
+	}
+	20% {
+		stroke-dasharray: 3px 10px;
+		stroke-dashoffset: 0px;
+	}
+	25% {
+		stroke-dasharray: 0.1px 10px;
+		stroke-dashoffset: -1px;
+	}
+	30% {
+		stroke-dasharray: 3px 10px;
+		stroke-dashoffset: 0px;
+	}
+	35% {
+		stroke-dasharray: 0.1px 10px;
+		stroke-dashoffset: -1px;
+	}
+	40% {
+		stroke-dasharray: 3px 10px;
+		stroke-dashoffset: 0px;
+	}
+	45% {
+		stroke-dasharray: 0.1px 10px;
+		stroke-dashoffset: -1px;
+	}
+	50% {
 		stroke-dasharray: 3px 10px;
 		stroke-dashoffset: 0px;
 	}
@@ -63,10 +101,10 @@
 	-moz-animation-name: am-weather-sun-shiny;
 	-ms-animation-name: am-weather-sun-shiny;
 	animation-name: am-weather-sun-shiny;
-	-webkit-animation-duration: 2s;
-	-moz-animation-duration: 2s;
-	-ms-animation-duration: 2s;
-	animation-duration: 2s;
+	-webkit-animation-duration: 20s;
+	-moz-animation-duration: 20s;
+	-ms-animation-duration: 20s;
+	animation-duration: 20s;
 	-webkit-animation-timing-function: linear;
 	-moz-animation-timing-function: linear;
 	-ms-animation-timing-function: linear;
