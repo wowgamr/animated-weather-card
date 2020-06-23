@@ -2,8 +2,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="45" height="45" viewbox="0 0 17 17" style="&#10;    /* background-color: black; */&#10;">
 <defs>
 	<filter id="blur" width="200%" height="200%">
-		<feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
-		<feOffset dx="0" dy="4" result="offsetblur"/>
 		<feComponentTransfer>
 			<feFuncA type="linear" slope="0.05"/>
 		</feComponentTransfer>
@@ -21,11 +19,17 @@
 		-ms-transform: translate(0px,0px);
 		transform: translate(0px,0px);
 	}
-	50% {
+	15% {
 		-webkit-transform: translate(2px,0px);
 		-moz-transform: translate(2px,0px);
 		-ms-transform: translate(2px,0px);
 		transform: translate(2px,0px);
+	}
+	30% {
+		-webkit-transform: translate(0px,0px);
+		-moz-transform: translate(0px,0px);
+		-ms-transform: translate(0px,0px);
+		transform: translate(0px,0px);
 	}
 	100% {
 		-webkit-transform: translate(0px,0px);
@@ -38,9 +42,9 @@
 	-webkit-animation-name: am-weather-cloud-2;
 	-moz-animation-name: am-weather-cloud-2;
 	animation-name: am-weather-cloud-2;
-	-webkit-animation-duration: 3s;
-	-moz-animation-duration: 3s;
-	animation-duration: 3s;
+	-webkit-animation-duration: 18s;
+	-moz-animation-duration: 18s;
+	animation-duration: 18s;
 	-webkit-animation-timing-function: linear;
 	-moz-animation-timing-function: linear;
 	animation-timing-function: linear;
@@ -57,6 +61,12 @@
 		-ms-transform: rotate(0deg);
 		transform: rotate(0deg);
 	}
+	30% {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
 	100% {
 		-webkit-transform: rotate(360deg);
 		-moz-transform: rotate(360deg);
@@ -69,10 +79,10 @@
 	-moz-animation-name: am-weather-sun;
 	-ms-animation-name: am-weather-sun;
 	animation-name: am-weather-sun;
-	-webkit-animation-duration: 9s;
-	-moz-animation-duration: 9s;
-	-ms-animation-duration: 9s;
-	animation-duration: 9s;
+	-webkit-animation-duration: 18s;
+	-moz-animation-duration: 18s;
+	-ms-animation-duration: 18s;
+	animation-duration: 18s;
 	-webkit-animation-timing-function: linear;
 	-moz-animation-timing-function: linear;
 	-ms-animation-timing-function: linear;
@@ -87,9 +97,29 @@
 		stroke-dasharray: 3px 10px;
 		stroke-dashoffset: 0px;
 	}
-	50% {
+	5% {
 		stroke-dasharray: 0.1px 10px;
 		stroke-dashoffset: -1px;
+	}
+	10% {
+		stroke-dasharray: 3px 10px;
+		stroke-dashoffset: 0px;
+	}
+	15% {
+		stroke-dasharray: 0.1px 10px;
+		stroke-dashoffset: -1px;
+	}
+	20% {
+		stroke-dasharray: 3px 10px;
+		stroke-dashoffset: 0px;
+	}
+	25% {
+		stroke-dasharray: 0.1px 10px;
+		stroke-dashoffset: -1px;
+	}
+	30% {
+		stroke-dasharray: 3px 10px;
+		stroke-dashoffset: 0px;
 	}
 	100% {
 		stroke-dasharray: 3px 10px;
@@ -101,10 +131,10 @@
 	-moz-animation-name: am-weather-sun-shiny;
 	-ms-animation-name: am-weather-sun-shiny;
 	animation-name: am-weather-sun-shiny;
-	-webkit-animation-duration: 2s;
-	-moz-animation-duration: 2s;
-	-ms-animation-duration: 2s;
-	animation-duration: 2s;
+	-webkit-animation-duration: 18s;
+	-moz-animation-duration: 18s;
+	-ms-animation-duration: 18s;
+	animation-duration: 18s;
 	-webkit-animation-timing-function: linear;
 	-moz-animation-timing-function: linear;
 	-ms-animation-timing-function: linear;
