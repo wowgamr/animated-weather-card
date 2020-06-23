@@ -2,8 +2,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="47" height="47" viewbox="0 0 17 17">
 <defs>
 	<filter id="blur" width="200%" height="200%">
-		<feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
-		<feOffset dx="0" dy="4" result="offsetblur"/>
 		<feComponentTransfer>
 			<feFuncA type="linear" slope="0.05"/>
 		</feComponentTransfer>
@@ -41,40 +39,6 @@
 	-webkit-animation-duration: 7s;
 	-moz-animation-duration: 7s;
 	animation-duration: 7s;
-	-webkit-animation-timing-function: linear;
-	-moz-animation-timing-function: linear;
-	animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
-	-moz-animation-iteration-count: infinite;
-	animation-iteration-count: infinite;
-}
-@keyframes am-weather-cloud-2 {
-	0% {
-		-webkit-transform: translate(0px,0px);
-		-moz-transform: translate(0px,0px);
-		-ms-transform: translate(0px,0px);
-		transform: translate(0px,0px);
-	}
-	50% {
-		-webkit-transform: translate(2px,0px);
-		-moz-transform: translate(2px,0px);
-		-ms-transform: translate(2px,0px);
-		transform: translate(2px,0px);
-	}
-	100% {
-		-webkit-transform: translate(0px,0px);
-		-moz-transform: translate(0px,0px);
-		-ms-transform: translate(0px,0px);
-		transform: translate(0px,0px);
-	}
-}
-.am-weather-cloud-2 {
-	-webkit-animation-name: am-weather-cloud-2;
-	-moz-animation-name: am-weather-cloud-2;
-	animation-name: am-weather-cloud-2;
-	-webkit-animation-duration: 3s;
-	-moz-animation-duration: 3s;
-	animation-duration: 3s;
 	-webkit-animation-timing-function: linear;
 	-moz-animation-timing-function: linear;
 	animation-timing-function: linear;
