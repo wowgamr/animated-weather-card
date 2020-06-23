@@ -19,11 +19,17 @@
 		-ms-transform: translate(-5px,0px);
 		transform: translate(-5px,0px);
 	}
-	50% {
+	15% {
 		-webkit-transform: translate(10px,0px);
 		-moz-transform: translate(10px,0px);
 		-ms-transform: translate(10px,0px);
 		transform: translate(10px,0px);
+	}
+	30% {
+		-webkit-transform: translate(-5px,0px);
+		-moz-transform: translate(-5px,0px);
+		-ms-transform: translate(-5px,0px);
+		transform: translate(-5px,0px);
 	}
 	100% {
 		-webkit-transform: translate(-5px,0px);
@@ -36,9 +42,9 @@
 	-webkit-animation-name: am-weather-cloud-1;
 	-moz-animation-name: am-weather-cloud-1;
 	animation-name: am-weather-cloud-1;
-	-webkit-animation-duration: 7s;
-	-moz-animation-duration: 7s;
-	animation-duration: 7s;
+	-webkit-animation-duration: 21s;
+	-moz-animation-duration: 21s;
+	animation-duration: 21s;
 	-webkit-animation-timing-function: linear;
 	-moz-animation-timing-function: linear;
 	animation-timing-function: linear;
@@ -55,23 +61,17 @@
 		-ms-transform: translate(0.0px,0.0px);
 		transform: translate(0.0px,0.0px);
 	}
-	2% {
-		-webkit-transform: translate(0.3px,0.0px);
-		-moz-transform: translate(0.3px,0.0px);
-		-ms-transform: translate(0.3px,0.0px);
-		transform: translate(0.3px,0.0px);
-	}
-	4% {
+	6% {
 		-webkit-transform: translate(0.0px,0.0px);
 		-moz-transform: translate(0.0px,0.0px);
 		-ms-transform: translate(0.0px,0.0px);
 		transform: translate(0.0px,0.0px);
 	}
-	6% {
-		-webkit-transform: translate(0.5px,0.4px);
-		-moz-transform: translate(0.5px,0.4px);
-		-ms-transform: translate(0.5px,0.4px);
-		transform: translate(0.5px,0.4px);
+	7% {
+		-webkit-transform: translate(0.4px,0.0px);
+		-moz-transform: translate(0.4px,0.0px);
+		-ms-transform: translate(0.4px,0.0px);
+		transform: translate(0.4px,0.0px);
 	}
 	8% {
 		-webkit-transform: translate(0.0px,0.0px);
@@ -79,82 +79,40 @@
 		-ms-transform: translate(0.0px,0.0px);
 		transform: translate(0.0px,0.0px);
 	}
+	9% {
+		-webkit-transform: translate(-0.4px,0.0px);
+		-moz-transform: translate(-0.4px,0.0px);
+		-ms-transform: translate(-0.4px,0.0px);
+		transform: translate(-0.4px,0.0px);
+	}
 	10% {
-		-webkit-transform: translate(0.3px,0.0px);
-		-moz-transform: translate(0.3px,0.0px);
-		-ms-transform: translate(0.3px,0.0px);
-		transform: translate(0.3px,0.0px);
-	}
-	12% {
 		-webkit-transform: translate(0.0px,0.0px);
 		-moz-transform: translate(0.0px,0.0px);
 		-ms-transform: translate(0.0px,0.0px);
 		transform: translate(0.0px,0.0px);
 	}
-	14% {
-		-webkit-transform: translate(0.3px,0.0px);
-		-moz-transform: translate(0.3px,0.0px);
-		-ms-transform: translate(0.3px,0.0px);
-		transform: translate(0.3px,0.0px);
-	}
-	16% {
-		-webkit-transform: translate(0.0px,0.0px);
-		-moz-transform: translate(0.0px,0.0px);
-		-ms-transform: translate(0.0px,0.0px);
-		transform: translate(0.0px,0.0px);
-	}
-	18% {
-		-webkit-transform: translate(0.3px,0.0px);
-		-moz-transform: translate(0.3px,0.0px);
-		-ms-transform: translate(0.3px,0.0px);
-		transform: translate(0.3px,0.0px);
-	}
-	20% {
-		-webkit-transform: translate(0.0px,0.0px);
-		-moz-transform: translate(0.0px,0.0px);
-		-ms-transform: translate(0.0px,0.0px);
-		transform: translate(0.0px,0.0px);
-	}
-	22% {
-		-webkit-transform: translate(1px,0.0px);
-		-moz-transform: translate(1px,0.0px);
-		-ms-transform: translate(1px,0.0px);
-		transform: translate(1px,0.0px);
-	}
-	24% {
-		-webkit-transform: translate(0.0px,0.0px);
-		-moz-transform: translate(0.0px,0.0px);
-		-ms-transform: translate(0.0px,0.0px);
-		transform: translate(0.0px,0.0px);
-	}
-  26% {
-		-webkit-transform: translate(-1px,0.0px);
-		-moz-transform: translate(-1px,0.0px);
-		-ms-transform: translate(-1px,0.0px);
-		transform: translate(-1px,0.0px);
-	}
-	28% {
-		-webkit-transform: translate(0.0px,0.0px);
-		-moz-transform: translate(0.0px,0.0px);
-		-ms-transform: translate(0.0px,0.0px);
-		transform: translate(0.0px,0.0px);
-	}
-	40% {
+	11% {
 		fill: orange;
 		-webkit-transform: translate(0.0px,0.0px);
 		-moz-transform: translate(0.0px,0.0px);
 		-ms-transform: translate(0.0px,0.0px);
 		transform: translate(0.0px,0.0px);
 	}
-	65% {
+	12% {
 		fill: white;
 		-webkit-transform: translate(-1px,5.0px);
 		-moz-transform: translate(-1px,5.0px);
 		-ms-transform: translate(-1px,5.0px);
 		transform: translate(-1px,5.0px);
 	}
-	61% {
+	13% {
 		fill: orange;
+	}
+	14% {
+		-webkit-transform: translate(0.0px,0.0px);
+		-moz-transform: translate(0.0px,0.0px);
+		-ms-transform: translate(0.0px,0.0px);
+		transform: translate(0.0px,0.0px);
 	}
 	100% {
 		-webkit-transform: translate(0.0px,0.0px);
@@ -167,9 +125,9 @@
 	-webkit-animation-name: am-weather-stroke;
 	-moz-animation-name: am-weather-stroke;
 	animation-name: am-weather-stroke;
-	-webkit-animation-duration: 1.11s;
-	-moz-animation-duration: 1.11s;
-	animation-duration: 1.11s;
+	-webkit-animation-duration: 21s;
+	-moz-animation-duration: 21s;
+	animation-duration: 21s;
 	-webkit-animation-timing-function: linear;
 	-moz-animation-timing-function: linear;
 	animation-timing-function: linear;
