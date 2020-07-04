@@ -13,19 +13,31 @@
 	<style type="text/css"><![CDATA[
 /* CLOUDS */
 @keyframes am-weather-cloud-1 {
-	0% {
+0% {
 		-webkit-transform: translate(-5px,0px);
 		-moz-transform: translate(-5px,0px);
 		-ms-transform: translate(-5px,0px);
 		transform: translate(-5px,0px);
 	}
-	15% {
+	10% {
+		-webkit-transform: translate(8px,0px);
+		-moz-transform: translate(8px,0px);
+		-ms-transform: translate(8px,0px);
+		transform: translate(8px,0px);
+	}
+	12% {
 		-webkit-transform: translate(10px,0px);
 		-moz-transform: translate(10px,0px);
 		-ms-transform: translate(10px,0px);
 		transform: translate(10px,0px);
 	}
-	30% {
+	22% {
+		-webkit-transform: translate(-3px,0px);
+		-moz-transform: translate(-3px,0px);
+		-ms-transform: translate(-3px,0px);
+		transform: translate(-3px,0px);
+	}
+	24% {
 		-webkit-transform: translate(-5px,0px);
 		-moz-transform: translate(-5px,0px);
 		-ms-transform: translate(-5px,0px);
