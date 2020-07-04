@@ -1,7 +1,7 @@
 # Animated Weather Card
 Animated icons for default Home Assistant [weather card](https://www.home-assistant.io/lovelace/weather-forecast/)
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 
 ### Screenshots
 ![](https://clients.wowgamr.ru/hacs/weather1.gif)
