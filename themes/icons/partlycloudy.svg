@@ -13,19 +13,19 @@
 	<style type="text/css"><![CDATA[
 /* CLOUDS */
 @keyframes am-weather-cloud-2 {
-	0% {
+	10% {
 		-webkit-transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 		-ms-transform: translate(0px,0px);
 		transform: translate(0px,0px);
 	}
-	15% {
+	17% {
 		-webkit-transform: translate(2px,0px);
 		-moz-transform: translate(2px,0px);
 		-ms-transform: translate(2px,0px);
 		transform: translate(2px,0px);
 	}
-	30% {
+	24% {
 		-webkit-transform: translate(0px,0px);
 		-moz-transform: translate(0px,0px);
 		-ms-transform: translate(0px,0px);
@@ -61,7 +61,43 @@
 		-ms-transform: rotate(0deg);
 		transform: rotate(0deg);
 	}
-	30% {
+	1% {
+		-webkit-transform: rotate(3deg);
+		-moz-transform: rotate(3deg);
+		-ms-transform: rotate(3deg);
+		transform: rotate(3deg);
+	}
+	3% {
+		-webkit-transform: rotate(10deg);
+		-moz-transform: rotate(10deg);
+		-ms-transform: rotate(10deg);
+		transform: rotate(10deg);
+	}
+	5% {
+		-webkit-transform: rotate(20deg);
+		-moz-transform: rotate(20deg);
+		-ms-transform: rotate(20deg);
+		transform: rotate(20deg);
+	}
+	45% {
+		-webkit-transform: rotate(340deg);
+		-moz-transform: rotate(340deg);
+		-ms-transform: rotate(340deg);
+		transform: rotate(340deg);
+	}
+	47% {
+		-webkit-transform: rotate(350deg);
+		-moz-transform: rotate(350deg);
+		-ms-transform: rotate(350deg);
+		transform: rotate(350deg);
+	}
+	49% {
+		-webkit-transform: rotate(357deg);
+		-moz-transform: rotate(357deg);
+		-ms-transform: rotate(357deg);
+		transform: rotate(357deg);
+	}
+	50% {
 		-webkit-transform: rotate(360deg);
 		-moz-transform: rotate(360deg);
 		-ms-transform: rotate(360deg);
