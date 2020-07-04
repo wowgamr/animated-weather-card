@@ -6,7 +6,7 @@
 Animated Weather Card:
     weather-icon-clear-night: url("/hacsfiles/themes/animated-weather-card/icons/clear-night.svg")
     weather-icon-cloudy: url("/hacsfiles/themes/animated-weather-card/icons/cloudy.svg")
-    weather-icon-fog: url("/hacsfiles/themes/animated-weather-card/icons/cloudy.svg")
+    weather-icon-fog: url("/hacsfiles/themes/animated-weather-card/icons/fog.svg")
     weather-icon-lightning: url("/hacsfiles/themes/animated-weather-card/icons/lightning.svg")
     weather-icon-lightning-rainy: url("/hacsfiles/themes/animated-weather-card/icons/lightning.svg")
     weather-icon-partlycloudy: url("/hacsfiles/themes/animated-weather-card/icons/partlycloudy.svg")
