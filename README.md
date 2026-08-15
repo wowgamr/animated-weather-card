@@ -39,7 +39,7 @@ frontend:
 1. [Download](https://github.com/wowgamr/animated-weather-card/releases) latest release source code
 2. Unarchive **icons** folder into your theme folder, located in `/www/community/`
 3. Copy variables from `animated-weather-card.yaml`
-4. Check icon paths. For icon placed in `/www/community/you_theme_folder_name/icons/clear-night.svg` variable's path is `/www/community/you_theme_folder_name/icons/clear-night.svg`
+4. Check icon paths. `/hacsfiles/` is virtual path of `/www/community/`. For icon placed in `/www/community/you_theme_folder_name/icons/clear-night.svg` variable's path is `/hacsfiles/you_theme_folder_name/icons/clear-night.svg`
 
 ### Credits
 amCharts icons - [https://www.amcharts.com/free-animated-svg-weather-icons](https://www.amcharts.com/free-animated-svg-weather-icons/)
